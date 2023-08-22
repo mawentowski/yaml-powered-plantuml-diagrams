@@ -1,0 +1,8 @@
+name: Order
+attributes:
+  - name: id
+    type: int
+  - name: customer_id
+    type: int
+  - name: total_amount
+    type: float

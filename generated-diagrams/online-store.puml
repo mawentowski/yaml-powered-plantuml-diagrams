@@ -1,0 +1,19 @@
+@startuml
+class Customer {
+  id: int
+  name: string
+  email: string
+}
+class Order {
+  id: int
+  customer_id: int
+  total_amount: float
+}
+class Product {
+  id: int
+  name: string
+  price: float
+}
+Customer --> Order : "places"
+Product --> Order : "contains"
+@enduml

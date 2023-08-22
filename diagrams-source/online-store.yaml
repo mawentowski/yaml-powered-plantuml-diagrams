@@ -1,0 +1,15 @@
+type: class
+elements:
+  - type: class
+    file: data/Customer.yaml
+  - type: class
+    file: data/Order.yaml
+  - type: class
+    file: data/Product.yaml
+relationships:
+  - type: places
+    from: Customer
+    to: Order
+  - type: contains
+    from: Product
+    to: Order

@@ -1,0 +1,23 @@
+{
+  "name": "generate-diagrams-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "validate-schemas": "node --experimental-specifier-resolution=node scripts/validate-schemas.mjs",
+    "generate-plantuml": "node --experimental-specifier-resolution=node scripts/generate-class-diagram.mjs",
+    "generate-diagram": "node --experimental-specifier-resolution=node scripts/generate-diagram.mjs",
+    "generate-all": "npm run generate-plantuml && npm run generate-diagram"
+  },
+  "author": "Mark Wentowski",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5"
+  }
+}

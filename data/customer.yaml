@@ -1,0 +1,8 @@
+name: Customer
+attributes:
+  - name: id
+    type: int
+  - name: name
+    type: string
+  - name: email
+    type: string

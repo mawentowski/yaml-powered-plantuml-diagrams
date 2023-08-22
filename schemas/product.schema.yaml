@@ -1,0 +1,21 @@
+type: object
+properties:
+  name:
+    type: string
+  attributes:
+    type: array
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        type:
+          type: string
+        visibility:
+          type: string
+      required:
+        - name
+        - type
+required:
+  - name
+  - attributes
