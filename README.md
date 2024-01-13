@@ -1,43 +1,34 @@
-# YAML-Powered PlantUML Diagrams
+YAML-Powered PlantUML Diagrams
 
 ============
 
 Introducing YAML-Powered PlantUML Diagrams: Seamlessly generate diagrams with YAML and PlantUML integration.
 
-- [YAML-Powered PlantUML Diagrams](#yaml-powered-plantuml-diagrams)
-  - [About the project](#about-the-project)
-  - [Features](#features)
-  - [Get started](#get-started)
-    - [Prerequisites](#prerequisites)
-    - [Install the project](#install-the-project)
-    - [Generate a diagram from YAML](#generate-a-diagram-from-yaml)
-    - [View the generated diagram](#view-the-generated-diagram)
-  - [Project structure](#project-structure)
-    - [`diagrams-source`](#diagrams-source)
-    - [`data`](#data)
-    - [`schemas`](#schemas)
-    - [`scripts`](#scripts)
-    - [`generated-diagrams`](#generated-diagrams)
-    - [`libs`](#libs)
-  - [Usage](#usage)
-    - [Manually generate diagrams](#manually-generate-diagrams)
-  - [Roadmap](#roadmap)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Built With](#built-with)
-  - [Contact](#contact)
+- [About the project](#about-the-project)
+- [Features](#features)
+- [Get started](#get-started)
+  - [Prerequisites](#prerequisites)
+  - [Install the project](#install-the-project)
+  - [Generate a diagram from YAML](#generate-a-diagram-from-yaml)
+  - [View the generated diagram](#view-the-generated-diagram)
+- [Project structure](#project-structure)
+  - [`diagrams-source`](#diagrams-source)
+  - [`data`](#data)
+  - [`schemas`](#schemas)
+  - [`scripts`](#scripts)
+  - [`generated-diagrams`](#generated-diagrams)
+  - [`libs`](#libs)
+- [Usage](#usage)
+  - [Manually generate diagrams](#manually-generate-diagrams)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Built With](#built-with)
+- [Contact](#contact)
 
 ## About the project
 
 YAML-Powered PlantUML Diagrams is a JavaScript project that utilizes the Node.js runtime environment that allows you to create diagrams by defining data in YAML files and then using scripts to automatically generate PlantUML diagrams based on that data. By employing YAML and schemas, the project aims to provide a more manageable and centralized way to create and maintain diagrams while ensuring consistency and adherence to deel free to mix and match efined rules.
-
-This approach offers the following benefits:
-
-- **Simplicity**: Create diagrams by focusing on data, simplifying the process.
-- **Consistency**: Ensure uniformity across diagrams by centralizing data definition.
-- **Rule Enforcement**: Define schemas to enforce structure and guidelines.
-- **Automation**: Automate diagram generation for increased efficiency.
-- **Flexibility**: Adapt the provided scripts to your specific needs.
 
 Feel free to dive into the example YAML files and scripts to explore the technical aspects and customize them as required.
 
@@ -48,6 +39,8 @@ Currently, the project only supports generating class diagrams from YAML-defined
 - **Dynamic Diagram Generation**: By storing data in YAML and generating diagrams programmatically, the project provides a dynamic and efficient way to create diagrams.
 
 - **Centralized Data**: YAML data files serve as a single source of truth for diagram elements, making maintenance and updates easier.
+
+- **Version-controlled data** - Storing diagram elements as YAML allows you to version-control diagrams and diagram data.
 
 - **Schema Validation**: Schemas in the `schemas` directory ensure that data adheres to a predefined structure, reducing errors and ensuring consistency.
 
